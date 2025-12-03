@@ -1,0 +1,114 @@
+# -------------------------
+# Python .gitignore
+# -------------------------
+
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Django stuff (not required but safe)
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask / FastAPI (optional)
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+
+# VS Code settings
+.vscode/
+.vscode*
+.history
+
+# Spyder
+.spyproject
+
+# PyCharm
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Project-specific ignore
+# -------------------------
+
+# Datasets (Raw)
+04_data/raw_data.csv
+04_data/*.zip
+
+# Model Files
+08_models/*.pkl
+08_models/*.joblib
+08_models/*.h5
+
+# Excel generated temp files
+~$*.xlsx
+
+# Power BI / Tableau backups
+05_dashboards/*.bak
+
+# Large files you don't want in repo
+*.pptx
+*.pdf
+
+# Logs
+logs/
+*.log
+
