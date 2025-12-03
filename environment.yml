@@ -1,0 +1,23 @@
+name: analytics_env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - openpyxl
+  - xlsxwriter
+  - notebook
+  - ipykernel
+  - pip
+
+  - pip:
+      - python-dateutil
+      - tqdm
